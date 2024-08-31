@@ -1,7 +1,5 @@
 package Seccion03_TipoString;
 
-import java.util.Arrays;
-
 public class StringPrueba {
     public static void main(String[] args) {
         //25 Introduction to Strings
