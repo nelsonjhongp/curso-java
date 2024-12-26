@@ -1,4 +1,4 @@
-package Seccion5_FlujosDeControl;
+package Seccion05_FlujosDeControl;
 
 public class SentenciaBucleEtiquetas {
     public static void main(String[] args) {

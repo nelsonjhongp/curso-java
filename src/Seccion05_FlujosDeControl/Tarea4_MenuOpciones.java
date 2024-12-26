@@ -1,7 +1,6 @@
-package Seccion5_FlujosDeControl;
+package Seccion05_FlujosDeControl;
 
 import javax.swing.*;
-import java.util.Scanner;
 
 public class Tarea4_MenuOpciones {
     public static void main(String[] args) {
