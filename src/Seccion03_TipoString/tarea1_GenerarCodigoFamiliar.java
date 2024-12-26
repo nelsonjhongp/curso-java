@@ -1,7 +1,7 @@
 package Seccion03_TipoString;
 
 import java.util.Scanner;
-public class TAREA {
+public class tarea1_GenerarCodigoFamiliar {
     public static void main(String[] args) {
         //Considerando Padre = 0; Madre = 1; Hermana = 2;
         String[] nombresFamilia = new String[3];
