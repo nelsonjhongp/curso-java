@@ -26,6 +26,6 @@ public class Tarea13 {
         for(int i = 0; i < b.length; i++){
             System.out.println(b[i]);
         }
-        //hola gentita
+        //hola gentita nooo otra vez porque
     }
 }
