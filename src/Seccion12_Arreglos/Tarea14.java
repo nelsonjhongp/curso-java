@@ -9,8 +9,25 @@ public class Tarea14 {
 
         int numero, arreglo[];
         arreglo = new int[10];
-        for (int i = 0; i <= arreglo.length; i++) {
-            System.out.println(".- Ingrese numero");
+
+        // Ingreso de valores
+        for (int i = 0; i < arreglo.length; i++) {
+            System.out.print(i + ".- Ingrese numero: ");
+            arreglo[i] = scanner.nextInt();
         }
+
+        int numeroAlto = 0;
+        for (int i = 0; i < arreglo.length; i++) {
+            if (arreglo[i] > numeroAlto){
+                numeroAlto = arreglo[i];
+            }
+        }
+
+        System.out.println("El numero alto es: " + numeroAlto);
+
+        // Mostrar arreglo final
+        /* for (int i = 0; i < arreglo.length; i++) {
+            System.out.println(i + "-> " + arreglo[i]);
+        } */
     }
 }
