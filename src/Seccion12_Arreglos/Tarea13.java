@@ -10,7 +10,7 @@ public class Tarea13 {
         Scanner s = new Scanner(System.in);
 
         for(int i = 0; i < a.length; i++){
-            System.out.print("Ingrese el número:");
+            System.out.print(i + ".-Ingrese el número: ");
             a[i] = s.nextInt();
         }
         System.out.println();
@@ -26,6 +26,5 @@ public class Tarea13 {
         for(int i = 0; i < b.length; i++){
             System.out.println(b[i]);
         }
-        //hola gentita nooo otra vez porque
     }
 }
