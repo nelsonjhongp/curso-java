@@ -10,7 +10,11 @@ public class Tarea16 {
 
         System.out.println("Ingrese 10 numeros enteros (1-9).");
         for (int i = 0; i < arreglo.length; i++) {
-
+            int numero = scanner.nextInt();
+            if (numero < 1 && numero > 9){
+                System.out.println("El numero no esta dentro del rango (1-9).");
+                i--;
+            }
         }
     }
 }
